@@ -45,3 +45,21 @@ footer a {
   color: #66ccff;
   text-decoration: none;
 }
+
+/* Unified link styling across all pages */
+a,
+a:visited {
+  color: #66ccff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a.cta {
+  background-color: #ffd500;
+  color: #000;
+  text-decoration: none;
+}
